@@ -8,7 +8,6 @@ import java.util.StringTokenizer;
 public class Main_BOJ2961_도영이가만든맛있는음식 {
 	static int n;
 	static INFO[] taste;
-	static boolean[]  visit;
 	static long result;
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
@@ -16,7 +15,6 @@ public class Main_BOJ2961_도영이가만든맛있는음식 {
 		
 		n = Integer.parseInt(in.readLine());
 		taste = new INFO[n];
-		visit = new boolean[n];
 		
 		for(int i = 0; i<n; i++) {
 			st = new StringTokenizer(in.readLine());
@@ -40,12 +38,8 @@ public class Main_BOJ2961_도영이가만든맛있는음식 {
 				result = abs;
 		}
 		for(int i = now; i<n; i++) {
-			if(visit[i])
-				continue;
+			dfs(i+1, mul * taste[i].ss, sum + taste[i].bb, cnt + 1);
 			
-			visit[i] = true;
-			dfs(now+1, mul * taste[i].ss, sum + taste[i].bb, cnt + 1);
-			visit[i] = false;
 		}
 		
 		
