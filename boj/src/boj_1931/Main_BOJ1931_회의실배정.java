@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main_BOJ1931_ȸ�ǽǹ��� {
+public class Main_BOJ1931_회의실배정 {
 	static int n;
 	static INFO[] time;
 	static int result = 0;

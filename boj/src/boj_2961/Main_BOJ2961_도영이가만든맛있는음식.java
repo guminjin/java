@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main_BOJ2961_µµ¿µÀÌ°¡¸¸µç¸ÀÀÖ´ÂÀ½½Ä {
+public class Main_BOJ2961_ë„ì˜ì´ê°€ë§Œë“ ë§›ìˆëŠ”ìŒì‹ {
 	static int n;
 	static INFO[] taste;
 	static long result;

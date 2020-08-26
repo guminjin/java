@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main_BOJ19236_Ã»¼Ò³â»ó¾î {
+public class Main_BOJ19236_ì²­ì†Œë…„ìƒì–´ {
 	final static int MAX = 4;
 	static int[][] arr = new int[MAX][MAX];
 	static FISH[] fish = new FISH[MAX * MAX + 1];
@@ -32,7 +32,7 @@ public class Main_BOJ19236_Ã»¼Ò³â»ó¾î {
 			}
 		}
 		
-		// »ó¾î À§Ä¡
+		// ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡
 		int num = arr[0][0];
 		shark = new FISH(0, 0, fish[num].dir, true);
 		fish[num].live = false;
@@ -53,7 +53,7 @@ public class Main_BOJ19236_Ã»¼Ò³â»ó¾î {
 		System.out.println();
 		
 		for(int i = 1; i<=16; i++) {
-			System.out.println(i+ "¹øÂ° ¹°°í±â - y:" + fish[i].y + ", x:" + fish[i].x + ", dir:" + fish[i].dir + ", live:" + fish[i].live);
+			System.out.println(i+ "ï¿½ï¿½Â° ï¿½ï¿½ï¿½ï¿½ï¿½ - y:" + fish[i].y + ", x:" + fish[i].x + ", dir:" + fish[i].dir + ", live:" + fish[i].live);
 		}
 	}
 	
@@ -141,7 +141,7 @@ public class Main_BOJ19236_Ã»¼Ò³â»ó¾î {
 				}
 				arr[next.y][next.x] = i;
 				fish[i] = next;
-				//System.out.println(i + "¹øÂ°");
+				//System.out.println(i + "ï¿½ï¿½Â°");
 				//print();
 				break;
 			}
