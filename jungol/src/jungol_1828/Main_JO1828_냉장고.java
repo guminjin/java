@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main_JO1828_³ÃÀå°í {
+public class Main_JO1828_ëƒ‰ìž¥ê³  {
 	static int n;
 	static INFO[] item;
 

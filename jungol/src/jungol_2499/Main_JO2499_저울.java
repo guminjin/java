@@ -8,7 +8,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.StringTokenizer;
 
-public class Main_JO2499_Àú¿ï {
+public class Main_JO2499_ì €ìš¸ {
 	static int n;
 	static int[] arr;
 	static Set<Integer> set = new HashSet<Integer>();
