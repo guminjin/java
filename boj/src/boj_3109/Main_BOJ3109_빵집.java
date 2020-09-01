@@ -1,11 +1,11 @@
-package WS0827;
+package boj_3109;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Solution_WS0827 {
+public class Main_BOJ3109_빵집 {
 	public static int garo, sero;
 	public static char[][] arr;
 
