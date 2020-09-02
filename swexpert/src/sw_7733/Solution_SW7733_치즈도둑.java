@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Solution_SW7733_ġ��� {
+public class Solution_SW7733_치즈도둑 {
 	static int n;
 	static int[][] arr;
 	static boolean[][] visit;

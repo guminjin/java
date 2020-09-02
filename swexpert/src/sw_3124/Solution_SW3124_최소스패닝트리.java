@@ -8,7 +8,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.StringTokenizer;
 
-public class Solution_SW3124_ÃÖ¼Ò½ºÆĞ´×Æ®¸® {
+public class Solution_SW3124_ìµœì†ŒìŠ¤íŒ¨ë‹íŠ¸ë¦¬ {
 	static int v, e;
 	static ArrayList<EDGE> list;
 	static int[] parent = new int[100000 + 1];
