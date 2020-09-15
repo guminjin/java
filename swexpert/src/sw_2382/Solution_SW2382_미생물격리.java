@@ -73,15 +73,6 @@ public class Solution_SW2382_미생물격리 {
 		}
 	}
 
-	private static void print() {
-		for(int y = 0; y<n; y++) {
-			for(int x = 0; x<n; x++)
-				System.out.print(map[y][x] + " ");
-			System.out.println();
-		}
-		System.out.println();
-	}
-
 	// 미생물이 현재 위치에 위치할 수 있는지 확인
 	private static void checkLocation() {
 		// 미생물 위치 저장
